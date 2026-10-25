@@ -1,11 +1,5 @@
 # D-FLIP standalone solver for feature-selection QUBOs
 
-Run **`D-FLIP.exe` directly**, without the Python feature-selection
-pipeline, Gurobi, D-Wave, OpenJij, or a quantum computer.
-
-The two executables shipped in this folder were checked on 25 October 2026
-and are byte-identical. Both implement the command line described below.
-You can select either filename in the commands.
 
 This guide uses **Windows PowerShell**. Commands start in the project root,
 one level above this README. Replace the example project path if necessary.
