@@ -1,4 +1,4 @@
-# D-FLIP standalone solver for feature-selection QUBOs
+# Derivative-Pruned r-Flip (D-FLIP) standalone solver for feature-selection QUBOs
 
 
 This guide uses **Windows PowerShell**. Commands start in the project root,
