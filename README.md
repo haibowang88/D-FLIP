@@ -30,7 +30,7 @@ Prepare the matrix and preserve its feature-column mapping before running
 the executable. In cross-validation, build each QUBO from training data only.
 
 For the model used in this project, see
-[the feature-selection formulation](../feature_selection_qubo_explained.md).
+[the feature-selection formulation](./feature_selection_qubo_explained.md).
 The standalone solver can also minimize other valid upper-triangular QUBOs.
 
 ## 2. Quick start: the 36 saved instances
