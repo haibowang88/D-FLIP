@@ -2,7 +2,7 @@
 
 
 This guide uses **Windows PowerShell**. Commands start in the project root,
-one level above this README. Replace the example project path if necessary.
+one level above this README. Replace the example project path if necessary. For Sparse and Dense instances, see [Sparse vs Dense](./Sparse_vs_Dense.md)
 
 ## 1. What the executable does
 
