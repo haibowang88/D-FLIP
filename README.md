@@ -177,7 +177,7 @@ The native reader is not a strict duplicate/trailing-record validator:
 repeated pairs overwrite earlier values, and trailing data can remain
 unread after the declared instances. Follow the rules above even when a
 malformed file does not produce an error. The optional project helper
-[qubo_io.py](../qubo_io.py) provides stricter input validation and
+[qubo_io.py](./qubo_io.py) provides stricter input validation and
 full-precision export; using it requires Python and NumPy, unlike running
 the executable itself.
 
@@ -262,7 +262,7 @@ one-hot-encoded columns rather than original raw fields. Save the exact
 ordered feature-name list from the matrix-construction step.
 
 For the provided 36-instance file,
-[the index CSV](../qubo_instances_index.csv) maps `instance_index` to
+[the index CSV](./qubo_instances_index.csv) maps `instance_index` to
 sample size, feature count, and `k_target`. It is metadata, **not an input
 to the executable**. The saved grid has six sample sizes and six feature
 counts, covering all 36 combinations.
