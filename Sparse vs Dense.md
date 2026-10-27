@@ -1,4 +1,4 @@
-Generate large sparse instance with [generate_sparse_qubo.exe](./generate_sparse_qubo.exe) and test with [d_flip_sparse.exe](./d_flip_sparse.exe)<br>
+Generate large sparse instance with [generate_sparse_qubo](./generate_sparse_qubo.exe) and test with [d_flip_sparse](./d_flip_sparse.exe)<br>
 <br>
 One million variables, ten million unique off-diagonal edges, and one million diagonal records:<br>
 ./generate_sparse_qubo large.txt 1000000 10000000 --seed 123456
@@ -6,7 +6,7 @@ One million variables, ten million unique off-diagonal edges, and one million di
 ./d_flip_sparse large.txt large-results.csv --qubo --csv --time-limit 300 --seed 123456
 <br>
 <br>
-Generate dense instance and test<br>
+Generate dense instance with [generate_dense_qubo](./generate_dense_qubo.exe) and test with [d_flip_dense](./d_flip_dense.exe)<br>
 <br>
 A moderate dense instance:<br>
 ./generate_dense_qubo dense-5000.txt 5000 --seed 42 --min-coeff -100 --max-coeff 100
