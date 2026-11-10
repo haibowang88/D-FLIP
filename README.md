@@ -1,5 +1,4 @@
-# Derivative-guided Feasibility-preserving Local Improvement
-and Perturbation (D-FLIP) solver for feature-selection QUBOs
+# Derivative-guided Feasibility-preserving Local Improvement and Perturbation (D-FLIP) solver for feature-selection QUBOs
 
 
 This guide uses **Windows PowerShell**. Commands start in the project root,
